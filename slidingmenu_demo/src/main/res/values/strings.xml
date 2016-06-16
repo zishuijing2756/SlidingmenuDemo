@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    
+    <string name="app_name">新闻</string>
+	<string name="category">分类</string>
+	<string name="international">国际</string>
+	<string name="sociology">社会</string>
+	<string name="technology">科技</string>
+	<string name="sports">体育</string>
+	<string name="apple">苹果</string>
+	
+</resources>
