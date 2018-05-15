@@ -189,4 +189,9 @@ public class MainActivity extends SlidingFragmentActivity implements OnClickList
         super.onDestroy();
     }
 
+
+    @Override
+    protected void onNewIntent(Intent intent) {
+        super.onNewIntent(intent);
+    }
 }
