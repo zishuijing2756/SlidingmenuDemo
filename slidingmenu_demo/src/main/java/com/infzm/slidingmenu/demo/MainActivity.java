@@ -194,4 +194,5 @@ public class MainActivity extends SlidingFragmentActivity implements OnClickList
     protected void onNewIntent(Intent intent) {
         super.onNewIntent(intent);
     }
+
 }
