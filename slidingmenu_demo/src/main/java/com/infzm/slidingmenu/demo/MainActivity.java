@@ -195,4 +195,9 @@ public class MainActivity extends SlidingFragmentActivity implements OnClickList
         super.onNewIntent(intent);
     }
 
+
+    @Override
+    protected void onRestart() {
+        super.onRestart();
+    }
 }
