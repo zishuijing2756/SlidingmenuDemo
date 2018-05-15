@@ -1,5 +1,6 @@
 package com.infzm.slidingmenu.demo;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.support.v4.app.FragmentManager;
 import android.support.v4.app.FragmentTransaction;
@@ -188,4 +189,8 @@ public class MainActivity extends SlidingFragmentActivity implements OnClickList
         super.onDestroy();
     }
 
+    @Override
+    protected void onNewIntent(Intent intent) {
+        super.onNewIntent(intent);
+    }
 }
